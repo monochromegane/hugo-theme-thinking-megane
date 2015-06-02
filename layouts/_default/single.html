@@ -4,15 +4,7 @@
 	<body>
 		{{ partial "header.html" . }}
 		{{ partial "nav.html" . }}
-		<main>
-			<header>
-				<h1>{{ .Title }}</h1>
-			</header>
-			{{ .TableOfContents }}
-			<article>
-				{{ .Content }}
-			</article>
-		</main>
+		{{ partial "content.html" . }}
 		{{ partial "footer.html" . }}
 	</body>
 </html>
