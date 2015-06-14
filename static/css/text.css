@@ -3,34 +3,54 @@ body {
   font-size: 1em;
 }
 
+p {
+  margin: 0.6em 0;
+}
+
 a {
   text-decoration: none;
 }
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
 }
-h1 {
-  font-size: 1.7em;
+
+h1 { font-size: 1.7em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.1em; }
+
+main header > h1 {
+  font-size: 2em;
+  line-height: 130%;
+  margin: 0;
 }
 
-h2 {
-  font-size: 1.5em;
+#header h1 {
+  margin: 0;
+  padding: 0;
 }
 
-h3 {
-  font-size: 1.4em;
+article h1 {
+  padding-bottom: 4px;
+  margin-top: 1.6em;
+  margin-bottom: 0.4em;
 }
 
-h4 {
-  font-size: 1.3em;
+main h2 {
+  font-size: 1.8em;
+  line-height: 130%;
+  margin-top: 1em;
+  margin-bottom: 0.4em;
 }
 
-h5 {
-  font-size: 1.2em;
-}
-
-h6 {
-  font-size: 1.1em;
+main h3 {
+  font-size: 1.6em;
+  line-height: 130%;
+  margin-top: 30px;
+  margin-bottom: 0.4em;
 }
 
 ul {
@@ -41,9 +61,18 @@ li > ul {
   margin: 0;
 }
 
+main ul {
+  margin: 30px 0;
+}
+
+main li {
+  margin: 3px 0 3px 20px;
+}
+
 pre {
   border-radius: 6px;
   padding: 20px;
+  margin: 1.6em 0;
 }
 
 code {
@@ -51,7 +80,8 @@ code {
   font-size: 0.9em;
 }
 
-p code {
+p code,
+li code {
   padding: 1px 3px;
   margin: 0 2px;
   font-size: 0.8em;

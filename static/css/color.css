@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #99102e;
+  color: #0068B3;
 }
 
 #header {
@@ -17,7 +17,24 @@ pre {
   color: #fcfcfd;
 }
 
-p code {
+p code,
+li code {
   color: #444;
   background: #e8e8ee;
+}
+
+article h1 {
+  border-bottom: 1px solid #dfdfdf;
+}
+
+main h3 {
+  color: rgba(0,0,0,0.3);
+}
+
+main img {
+  border: 1px solid #e6e6ec;
+}
+
+.posts main {
+  border-bottom: 1px dashed #bbb;
 }
