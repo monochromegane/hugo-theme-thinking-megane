@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
-	{{ partial "head.html" . }}
-	<body>
-		{{ partial "header.html" . }}
-		{{ partial "nav.html" . }}
-		{{ partial "content.html" . }}
-		{{ partial "footer.html" . }}
-	</body>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <div class="container">
+      {{ partial "nav.html" . }}
+      {{ partial "content.html" . }}
+      {{ partial "footer.html" . }}
+    </div>
+  </body>
 </html>

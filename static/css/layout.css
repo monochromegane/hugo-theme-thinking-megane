@@ -2,12 +2,12 @@
   padding: 20px;
 }
 
-main {
+.container {
   width: 830px;
   margin: 60px auto;
 }
 
-main img {
+.container img {
   max-width: 830px;
 }
 

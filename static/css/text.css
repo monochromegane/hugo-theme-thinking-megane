@@ -39,13 +39,13 @@ article h1 {
   margin-bottom: 0.4em;
 }
 
-main h2 {
+.container h2 {
   line-height: 130%;
   margin-top: 1em;
   margin-bottom: 0.4em;
 }
 
-main h3 {
+.container h3 {
   line-height: 130%;
   margin-top: 30px;
   margin-bottom: 0.4em;
@@ -59,11 +59,11 @@ li > ul {
   margin: 0;
 }
 
-main ul {
+.container ul {
   margin: 30px 0;
 }
 
-main li {
+.container li {
   margin: 3px 0 3px 20px;
 }
 
