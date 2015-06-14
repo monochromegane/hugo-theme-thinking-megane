@@ -11,3 +11,7 @@
   width: 830px;
   margin: 0 auto;
 }
+
+iframe {
+  border: 0;
+}
