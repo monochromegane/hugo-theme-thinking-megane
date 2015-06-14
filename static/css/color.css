@@ -3,6 +3,10 @@ body {
   color: #393c41;
 }
 
+a {
+  color: #4078c0;
+}
+
 #header {
   background: #fff;
   border-bottom: 1px solid #e6e6ec;
