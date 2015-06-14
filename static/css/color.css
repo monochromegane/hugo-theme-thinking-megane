@@ -7,3 +7,13 @@ body {
   background: #fff;
   border-bottom: 1px solid #e6e6ec;
 }
+
+pre {
+  background: #39393a;
+  color: #fcfcfd;
+}
+
+p code {
+  color: #444;
+  background: #e8e8ee;
+}
