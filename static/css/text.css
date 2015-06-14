@@ -1,5 +1,6 @@
 body {
-  font-family: Helvetica;
+  font-family: "Helvetica", "sans-serif";
+  font-size: 1em;
 }
 
 a {
@@ -21,7 +22,19 @@ li > ul {
   margin: 0;
 }
 
+pre {
+  border-radius: 6px;
+  padding: 20px;
+}
+
 code {
   font-family: "Source Code Pro", "sans-serif";
   font-size: 0.9em;
+}
+
+p code {
+  padding: 1px 3px;
+  margin: 0 2px;
+  font-size: 0.8em;
+  border-radius: 4px;
 }
