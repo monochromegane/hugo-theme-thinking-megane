@@ -7,9 +7,23 @@
   padding: 0;
 }
 
-.posts {
+main {
   width: 830px;
-  margin: 0 auto;
+  margin: 60px auto;
+}
+
+main header > h1 {
+  font-size: 1.7em;
+  line-height: 130%;
+  margin: 0;
+}
+
+main li {
+  margin: 3px 0 3px 20px;
+}
+
+main ul {
+  margin: 30px 0;
 }
 
 iframe {
