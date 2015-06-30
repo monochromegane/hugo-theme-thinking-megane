@@ -6,14 +6,6 @@
     <div class="container">
       {{ partial "nav.html" . }}
       {{ partial "content.html" . }}
-      <footer>
-        <ul>
-          {{ range .Params.tags }}
-          <li>{{ . }}</li>
-          {{ end }}
-        </ul>
-      </footer>
-      {{ partial "footer.html" . }}
     </div>
   </body>
 </html>
