@@ -5,4 +5,11 @@
   <article>
     {{ .Content }}
   </article>
+  <footer>
+    <ul>
+      {{ range .Params.tags }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </footer>
 </main>
