@@ -67,12 +67,6 @@ li > ul {
   margin: 3px 0 3px 20px;
 }
 
-pre {
-  border-radius: 6px;
-  padding: 20px;
-  margin: 1.6em 0;
-}
-
 code {
   font-family: "Source Code Pro", "sans-serif";
   font-size: 0.9em;
