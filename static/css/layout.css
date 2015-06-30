@@ -26,3 +26,9 @@ hr {
   border:none;
   border-bottom: 1px solid #f0f0f0;
 }
+
+.hljs {
+  border-radius: 6px;
+  padding: 1em;
+  background-color: #2a2a2a;
+}
