@@ -1,6 +1,7 @@
 <main>
   <header>
     <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <p><i class="fa fa-calendar-o"></i>{{ .Date.Format "2006-01-02" }}</p>
   </header>
   <article>
     {{ .Content }}
