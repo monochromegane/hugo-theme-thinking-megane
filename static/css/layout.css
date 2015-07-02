@@ -3,21 +3,23 @@
 }
 
 .container {
-  width: 830px;
+  max-width: 830px;
+  padding: 15px;
   margin: 60px auto;
 }
 
 .container img {
-  max-width: 830px;
+  max-width:100%;
 }
 
 .posts main {
-  margin: 60px auto 120px;
+  margin: 0 auto 120px;
   padding-bottom: 20px;
 }
 
 iframe {
   border: 0;
+  max-width:100%;
 }
 
 hr {
