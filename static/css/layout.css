@@ -9,7 +9,7 @@
 }
 
 .container img {
-  max-width:100%;
+  max-width: 100%;
 }
 
 .posts main {
@@ -19,13 +19,13 @@
 
 iframe {
   border: 0;
-  max-width:100%;
+  max-width: 100%;
 }
 
 hr {
-  height:0px;
-  margin:20px 0;
-  border:none;
+  height: 0px;
+  margin: 20px 0;
+  border: none;
   border-bottom: 1px solid #f0f0f0;
 }
 
