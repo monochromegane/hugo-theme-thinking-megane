@@ -9,7 +9,7 @@
   <footer>
     <ul>
       {{ range .Params.tags }}
-      <li>{{ . }}</li>
+      <li><a href="tags/{{ . | urlize }}">{{ . }}</a></li>
       {{ end }}
     </ul>
   </footer>
