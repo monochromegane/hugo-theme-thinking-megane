@@ -43,3 +43,7 @@ hr {
   display: inline-block;
   padding-left: 15px;
 }
+
+.tag {
+  margin-left: 5px;
+}
