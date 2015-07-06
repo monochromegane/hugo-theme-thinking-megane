@@ -9,8 +9,8 @@
         {{ range first $pagination .Data.Pages }}
         {{ partial "content.html" . }}
         {{ end }}
-        <div class="all-entries">
-          <a href="{{ .Site.BaseUrl }}/post">All Entries</a>
+        <div class="archives">
+          <a href="{{ .Site.BaseUrl }}post">Archives</a>
         </div>
       </div>
       {{ partial "footer.html" . }}
