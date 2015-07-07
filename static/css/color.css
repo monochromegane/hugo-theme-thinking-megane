@@ -6,6 +6,22 @@ a {
   color: #2d7dbe;
 }
 
+.header {
+  border-bottom: 1px solid #ededed;
+}
+
+.logo {
+  color: #222;
+}
+
+.menu > li a {
+    border: 1px solid #fff;
+}
+
+.menu > li a:hover {
+    border: 1px solid #eaeaf5;
+}
+
 .day {
   color: #9e9e9e;
 }
@@ -26,6 +42,10 @@ article h1 {
 
 .posts main {
   border-bottom: 1px dashed #bbb;
+}
+
+hr {
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .hljs {

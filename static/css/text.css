@@ -11,6 +11,19 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+h1 a {
+  transition-duration: 0.3s;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  opacity: .6;
+}
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
 }
@@ -28,15 +41,25 @@ main header > h1 {
   margin: 0;
 }
 
-.logo {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
-  opacity: 0.9;
-}
-
 .header h1 {
   margin: 0;
   padding: 0;
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+.menu > li a {
+  padding: 5px 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.menu > li a:hover {
+  text-decoration: none;
+  opacity: .6;
 }
 
 article h1 {
