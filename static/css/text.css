@@ -42,22 +42,25 @@ main header > h1 {
 article h1 {
   padding-bottom: 4px;
   margin-top: 1.6em;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.6em;
   font-weight: normal;
+  color: #2e3034;
 }
 
-.container h2 {
+article h2 {
   line-height: 130%;
-  margin-top: 1em;
-  margin-bottom: 0.4em;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
   font-weight: normal;
+  color: #2e3034;
 }
 
-.container h3 {
+article h3 {
   line-height: 130%;
-  margin-top: 30px;
-  margin-bottom: 0.4em;
+  margin-top: 2.5em;
+  margin-bottom: 0.6em;
   font-weight: normal;
+  color: #2e3034;
 }
 
 ul {

@@ -10,6 +10,7 @@
 
 .container img {
   max-width: 100%;
+  margin: 40px 0;
 }
 
 .posts main {
@@ -41,6 +42,7 @@ hr {
 .hljs {
   border-radius: 6px;
   padding: 1em;
+  margin: 2em 0; 
 }
 
 .menu {
