@@ -1,11 +1,11 @@
-#header {
+.header {
   padding: 20px;
 }
 
 .container {
   max-width: 830px;
   padding: 15px;
-  margin: 60px auto;
+  margin: 10px auto;
 }
 
 .container img {
@@ -15,6 +15,15 @@
 .posts main {
   margin: 0 auto 120px;
   padding-bottom: 20px;
+}
+
+.day {
+  margin: 10px 0 40px;
+  font-size: 0.8em;
+}
+
+.day-icon {
+  margin-right: 10px;
 }
 
 iframe {
@@ -32,7 +41,6 @@ hr {
 .hljs {
   border-radius: 6px;
   padding: 1em;
-  background-color: #2a2a2a;
 }
 
 .menu {
