@@ -56,5 +56,11 @@ hr {
 }
 
 .tag {
+  margin-top: 50px;
+  padding: 20px 0;
+}
+
+.tag-link {
   margin-left: 5px;
+  vertical-align: 1px;
 }

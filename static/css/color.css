@@ -40,14 +40,24 @@ article h1 {
   border: 1px solid #e6e6ec;
 }
 
-.posts main {
-  border-bottom: 1px dashed #bbb;
-}
-
 hr {
   border-bottom: 1px solid #f0f0f0;
 }
 
 .hljs {
   background-color: #29292f;
+}
+
+.tag {
+  color: #9e9e9e;
+  border-bottom: 1px solid #ededed;
+}
+
+.tag a {
+  color: #9e9e9e;
+  border: 1px solid #ededed;
+}
+
+.tag a:hover {
+  background-color: #f1f1f5;
 }

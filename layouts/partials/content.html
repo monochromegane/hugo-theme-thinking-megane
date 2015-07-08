@@ -6,11 +6,10 @@
   <article>
     {{ .Content }}
   </article>
-  <footer>
-    <span class="fa fa-tags">
-      {{ range .Params.tags }}
-        <a class="tag" href="tags/{{ . | urlize }}">{{ . }}</a>
-      {{ end }}
-    </span>
+  <footer class="tag">
+    <i class="fa fa-tags"></i>
+    {{ range .Params.tags }}
+      <a class="tag-link" href="tags/{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
   </footer>
 </main>

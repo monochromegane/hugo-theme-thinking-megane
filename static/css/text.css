@@ -114,3 +114,14 @@ li code {
   font-size: 0.8em;
   border-radius: 4px;
 }
+
+.tag a {
+  font-size: 0.7em;
+  padding: 3px 5px;
+  border-radius: 3px;
+  transition-duration: 0.3s;
+}
+
+.tag a:hover {
+  text-decoration: none;
+}
