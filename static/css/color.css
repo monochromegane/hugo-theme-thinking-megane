@@ -15,11 +15,12 @@ a {
 }
 
 .menu > li a {
-    border: 1px solid #fff;
+  border: 1px solid #fff;
+  transition-duration: 0.3s;
 }
 
 .menu > li a:hover {
-    border: 1px solid #eaeaf5;
+  border: 1px solid #eaeaf5;
 }
 
 .day {
