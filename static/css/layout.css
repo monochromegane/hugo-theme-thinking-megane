@@ -68,7 +68,7 @@ hr {
 
 .footer {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .author {
@@ -78,7 +78,17 @@ hr {
   background-size: 65px 65px;
   border: 1px solid #f5f5f5;
   border-radius: 50px;
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
+}
+
+.social li {
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+}
+
+.social li a {
+  color: #7e7e7e;
 }
 
 .copyright {

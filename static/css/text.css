@@ -133,3 +133,9 @@ li code {
 .footer {
   font-size: 0.8em;
 }
+
+.author-name {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
