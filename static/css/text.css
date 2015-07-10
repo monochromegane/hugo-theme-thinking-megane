@@ -125,3 +125,7 @@ li code {
 .tag a:hover {
   text-decoration: none;
 }
+
+.footer {
+  font-size: 0.8em;
+}
