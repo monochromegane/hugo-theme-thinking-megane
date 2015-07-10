@@ -73,7 +73,9 @@ hr {
 .author {
   width: 65px;
   height: 65px;
-  background-color: #ccc;
+  background-image: url(../images/author.png);
+  background-size: 65px 65px;
+  border: 1px solid #f5f5f5;
   border-radius: 50px;
   margin: 0 auto 20px;
 }
