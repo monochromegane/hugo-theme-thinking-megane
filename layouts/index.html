@@ -9,9 +9,7 @@
         {{ range first $pagination .Data.Pages }}
         {{ partial "content.html" . }}
         {{ end }}
-        <div class="archives">
-          <a href="{{ .Site.BaseUrl }}post">Archives</a>
-        </div>
+        <a href="{{ .Site.BaseUrl }}post" class="archives">Archives</a>
       </div>
     </div>
     {{ partial "footer.html" . }}
