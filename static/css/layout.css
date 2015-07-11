@@ -66,10 +66,12 @@ hr {
   vertical-align: 1px;
 }
 
-.archives {
+a.archives {
   padding: 1em;
-  border: 1px solid #ededed;
-  max-width: 830px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.3s;
 }
 
 .footer {

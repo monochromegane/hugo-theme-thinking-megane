@@ -62,3 +62,11 @@ hr {
 .tag a:hover {
   background-color: #f1f1f5;
 }
+
+a.archives {
+  border: 1px solid #ededed;
+}
+
+a.archives:hover {
+  background-color: #f1f1f5;
+}
