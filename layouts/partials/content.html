@@ -2,7 +2,7 @@
   <div class="post">
     <header>
       <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-      <p class="day"><i class="fa fa-calendar-o day-icon"></i>{{ .Date.Format "2006-01-02" }}</p>
+      <time><div class="day"><i class="fa fa-calendar-o day-icon"></i>{{ .Date.Format "2006-01-02" }}</div></time>
     </header>
     <div class="post-inner">
       {{ .Content }}
