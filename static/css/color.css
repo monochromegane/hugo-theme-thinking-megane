@@ -14,9 +14,20 @@ a {
   color: #222;
 }
 
+article h1 {
+  color: #2e3034;
+}
+
+article h2 {
+  color: #2e3034;
+}
+
+article h3 {
+  color: #2e3034;
+}
+
 .menu > li a {
   border: 1px solid #fff;
-  transition-duration: 0.3s;
 }
 
 .menu > li a:hover {

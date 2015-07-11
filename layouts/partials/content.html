@@ -7,9 +7,12 @@
     {{ .Content }}
   </article>
   <footer class="tag">
-    <i class="fa fa-tags"></i>
+    <i class="fa fa-tags tag-icon"></i>
+    <ul>
     {{ range .Params.tags }}
-      <a class="tag-link" href="/tags/{{ . | urlize }}">{{ . }}</a>
+      <li><a class="tag-link" href="/tags/{{ . | urlize }}">{{ . }}</a></li>
     {{ end }}
+    </ul>
+    <div class="clear"></div>
   </footer>
 </main>

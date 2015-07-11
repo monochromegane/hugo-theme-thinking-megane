@@ -1,6 +1,27 @@
+p {
+  margin: 0.2em 0;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+li > ul {
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
 .header {
   padding: 48px 0 30px;
   text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
 }
 
 .menu {
@@ -11,6 +32,18 @@
 .menu > li {
   display: inline-block;
   padding: 0;
+}
+
+.menu > li a {
+  padding: 5px 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition-duration: 0.3s;
+}
+
+.menu > li a:hover {
+  text-decoration: none;
+  opacity: .6;
 }
 
 .container {
@@ -57,13 +90,31 @@ hr {
 }
 
 .tag {
-  margin-top: 50px;
-  padding: 20px 0;
+  margin-top: 1em;
+  padding: 17px 0;
+}
+
+.tag-icon {
+  margin-top: 8px;
+  margin-right: 5px;
+  float: left;
+}
+
+.tag ul {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  float: left;
+}
+
+.tag li {
+  padding: 0;
+  margin: 4px 0;
+  display: inline-block;
 }
 
 .tag-link {
   margin-left: 5px;
-  vertical-align: 1px;
 }
 
 a.archives {
