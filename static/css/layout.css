@@ -129,6 +129,10 @@ hr {
   margin-left: 5px;
 }
 
+.social-btn {
+  margin-bottom: 20px;
+}
+
 a.archives {
   padding: 1em;
   display: block;
