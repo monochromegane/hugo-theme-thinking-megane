@@ -2,7 +2,11 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width">
   <meta name="author" content="{{ .Site.Author.Name }}">
-  <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+  {{ if eq .URL "/" }}
+    <title>{{ .Site.Title }}</title>
+  {{ else }}
+    <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+  {{ end }}
   <meta property="og:image" content="http://blog.monochromegane.com/images/ogp.png">
   <!-- Stylesheets -->
   <link rel="stylesheet" href="/css/reset.css">
