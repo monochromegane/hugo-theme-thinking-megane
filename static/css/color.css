@@ -14,15 +14,16 @@ a {
   color: #222;
 }
 
-article h1 {
+.post-inner h1 {
+  color: #2e3034;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.post-inner h2 {
   color: #2e3034;
 }
 
-article h2 {
-  color: #2e3034;
-}
-
-article h3 {
+.post-inner h3 {
   color: #2e3034;
 }
 
@@ -42,10 +43,6 @@ p code,
 li code {
   color: #444;
   background: #f1f1f5;
-}
-
-article h1 {
-  border-bottom: 1px solid #dfdfdf;
 }
 
 .container img {
