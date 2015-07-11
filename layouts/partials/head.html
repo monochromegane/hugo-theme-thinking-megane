@@ -1,21 +1,20 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta name="author" content="@monochromegane">
+  <meta name="author" content="{{ .Site.Author.Name }}">
   <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
   <meta property="og:image" content="http://blog.monochromegane.com/images/ogp.png">
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/reset.css">
+  <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Source+Code+Pro' type='text/css'>
   <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Montserrat' type='text/css'>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/{{ .Site.Params.SyntaxHighlightTheme }}">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/text.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/color.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/layout.css">
-  <link href='http://fonts.googleapis.com/css?family=Doppio+One' rel='stylesheet' type='text/css'>
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ .Site.BaseURL }}/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="{{ .Site.BaseURL }}/favicon.ico">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/ir_black.min.css">
+  <link rel="stylesheet" href="/css/text.css">
+  <link rel="stylesheet" href="/css/color.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.ico">
   <!-- RSS -->
-  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{.RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 </head>
