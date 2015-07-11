@@ -72,6 +72,11 @@ li > ul {
   vertical-align: 1px;
 }
 
+.list-day {
+  margin: 2px 0 20px;
+  font-size: 0.8em;
+}
+
 iframe {
   border: 0;
   max-width: 100%;
