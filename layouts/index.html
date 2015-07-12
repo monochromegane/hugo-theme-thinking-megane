@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
-	{{ partial "head.html" . }}
-	<body>
-		{{ partial "header.html" . }}
-		{{ $pagination := 7 }}
-		<div class="posts">
- 			{{ range first $pagination .Data.Pages }}
-			{{ partial "content.html" . }}
-			{{ end }}
- 			<div class="all-entries">
- 				<a href="{{ .Site.BaseUrl }}/post">All Entries</a>
- 			</div>
-		</div>
-	</body>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    {{ $pagination := 7 }}
+    <div class="container container-margin">
+      <div class="posts">
+        {{ range first $pagination .Data.Pages }}
+        {{ partial "content.html" . }}
+        {{ end }}
+        <a href="/post" class="archives">Archives</a>
+      </div>
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
 </html>
