@@ -7,6 +7,9 @@
   {{ else }}
     <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
   {{ end }}
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ .Summary }}">
+  <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:image" content="http://blog.monochromegane.com/images/ogp.png">
   <!-- Stylesheets -->
   <link rel="stylesheet" href="/css/reset.css">
