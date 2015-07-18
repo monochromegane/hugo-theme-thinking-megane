@@ -10,4 +10,4 @@ deploy:
     - script:
       name: trigger THINKING MEGANE build
       code: |
-        curl -H 'Content-Type: application/json' -H "Authorization: Bearer $WERCKER_TOKEN" -X POST -d "{\"applicationId\": \"$WERCKER_APP_ID\", \"branch\":\"master\", \"message\":\"Update theme\"}' https://app.wercker.com/api/v3/builds
+        curl -H 'Content-Type: application/json' -H "Authorization: Bearer $WERCKER_TOKEN" -X POST -d "{\"applicationId\": \"$WERCKER_APP_ID\", \"branch\":\"master\", \"message\":\"Update theme\"}" https://app.wercker.com/api/v3/builds
