@@ -168,6 +168,14 @@ a.archives {
   color: #7e7e7e;
 }
 
+.social-btn {
+  padding: 20px 0;
+}
+
+.social-btn div {
+  display: inline-block;
+}
+
 .copyright {
   margin-top: 10px;
 }
