@@ -55,6 +55,12 @@ h5 {
   margin: 0;
 }
 
+@media screen and (max-width: 550px) {
+  .post header > h1 {
+    font-size: 1.6em;
+  }
+}
+
 .logo {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
