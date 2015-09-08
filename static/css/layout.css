@@ -30,6 +30,12 @@ li > ul {
   text-align: center;
 }
 
+@media screen and (max-width: 550px) {
+  .header {
+      padding: 28px 0 10px;
+  }
+}
+
 .header h1 {
   margin: 0;
   padding: 0;
