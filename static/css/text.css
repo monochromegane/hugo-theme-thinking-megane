@@ -52,7 +52,7 @@ h5 {
   font-size: 2em;
   font-weight: normal;
   line-height: 130%;
-  margin: 0;
+  margin: 50px 0 0;
 }
 
 @media screen and (max-width: 550px) {
