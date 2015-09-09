@@ -11,6 +11,12 @@ ul {
   padding-left: 1.2em;
 }
 
+@media screen and (max-width: 550px) {
+  ul {
+    padding-left: 0.1em;
+  }
+}
+
 li > ul {
   margin: 0;
 }
