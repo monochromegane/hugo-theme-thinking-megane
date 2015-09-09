@@ -140,10 +140,6 @@ hr {
   margin-left: 5px;
 }
 
-.social-btn {
-  margin-bottom: 20px;
-}
-
 a.archives {
   padding: 1em;
   display: block;
@@ -152,10 +148,20 @@ a.archives {
   transition-duration: 0.3s;
 }
 
+.archive-list {
+  margin-top: 50px;
+}
+
 .footer {
   text-align: center;
-  margin-bottom: 100px;
+  margin: 50px 0 100px;
   padding: 0 15px;
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+      margin: 20px 0 60px;
+  }
 }
 
 .author {
@@ -178,12 +184,9 @@ a.archives {
   color: #7e7e7e;
 }
 
-.social-btn {
-  padding: 20px 0;
-}
-
 .social-btn div {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .copyright {
