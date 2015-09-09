@@ -66,6 +66,12 @@ h5 {
   font-size: 2em;
 }
 
+@media screen and (max-width: 550px) {
+  .logo {
+    font-size: 1.4em;
+  }
+}
+
 .post-inner h1 {
   padding-bottom: 4px;
   margin-top: 1.6em;
