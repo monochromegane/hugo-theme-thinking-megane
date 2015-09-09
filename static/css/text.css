@@ -99,7 +99,7 @@ h5 {
 
 @media screen and (max-width: 550px) {
   .container ul {
-    margin: 0;
+    margin: 20px 0;
   }
 }
 
