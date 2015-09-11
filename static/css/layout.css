@@ -103,6 +103,22 @@ iframe {
   margin: 30px 0 !important;
 }
 
+.speakerdeck {
+  width: 65%;
+}
+
+@media screen and (max-width: 860px) {
+  .speakerdeck {
+    width: 538px;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  .speakerdeck {
+    width: 100%;
+  }
+}
+
 hr {
   height: 0px;
   margin: 20px 0;
