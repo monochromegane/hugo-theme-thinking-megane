@@ -57,6 +57,23 @@ hr {
   background-color: #29292f;
 }
 
+table {
+  border-color: #dfdfdf;
+  background: #fff;
+}
+
+th,td {
+  border-color: #dfdfdf;
+}
+
+td {
+  background-color: #fff;
+}
+
+tr:nth-child(even) td {
+  background-color: #fcfcff;
+}
+
 .tag {
   color: #9e9e9e;
   border-bottom: 1px solid #ededed;
