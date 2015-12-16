@@ -149,6 +149,7 @@ th,td {
   padding: 10px 15px;
   border-style: solid;
   border-width: 0 1px 1px 0;
+  word-break: break-all;
 }
 
 th {
@@ -157,7 +158,6 @@ th {
 
 td {
   line-height: 180%;
-  font-size: 15px;
 }
 
 .tag {
