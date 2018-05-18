@@ -2,5 +2,5 @@
 
 My blog theme for Hugo. Designed by [keita\_kawamoto](https://twitter.com/keita_kawamoto).
 
-- [THINKING MEGANE](http://blog.monochromegane.com)
+- [THINKING MEGANE](https://blog.monochromegane.com)
 
