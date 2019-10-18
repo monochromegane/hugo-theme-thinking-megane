@@ -3,10 +3,11 @@
   {{ partial "head.html" . }}
   <body>
     {{ partial "header.html" . }}
+    {{ $posts := where .Data.Pages "Section" "post"}}
     {{ $pagination := 7 }}
     <div class="container">
       <div class="posts">
-        {{ range first $pagination .Data.Pages }}
+        {{ range first $pagination $posts }}
         {{ partial "content.html" . }}
         {{ end }}
         <a href="/post/" class="archives">Archives</a>
