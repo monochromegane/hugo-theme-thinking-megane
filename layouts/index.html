@@ -3,7 +3,7 @@
   {{ partial "head.html" . }}
   <body>
     {{ partial "header.html" . }}
-    {{ $posts := where .Data.Pages "Section" "post"}}
+    {{ $posts := where .Site.RegularPages "Section" "post"}}
     {{ $pagination := 7 }}
     <div class="container">
       <div class="posts">
