@@ -2,7 +2,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width">
   <meta name="author" content="{{ .Site.Author.Name }}">
-  {{ if eq .URL "/" }}
+  {{ if eq .RelPermalink "/" }}
     <title>{{ .Site.Title }}</title>
   {{ else }}
     <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
@@ -29,9 +29,9 @@
   <link rel="shortcut icon" href="/images/favicon.ico">
   <link rel="canonical" href="{{ .Permalink }}">
   <!-- RSS -->
-  <link href="{{.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ with .OutputFormats.Get "RSS"  }}{{ .Permalink  }}{{ end  }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
   <!--mathjax-->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML' async>
     MathJax.Hub.Config({
         HTML: ["input/TeX","output/HTML-CSS"],
         TeX: {
